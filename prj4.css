@@ -1,0 +1,160 @@
+.menu-bar {
+    background-color:brown;
+    height: 80px;
+    width:99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Reem kufi',sans-serif;
+    position: absolute;
+    top: 0px;
+  }
+  .menu-bar ul {
+    list-style: none;
+    display: flex;
+    padding-left: 40px;
+  }
+  .menu-bar ul li {
+    padding: 10px 25px;
+    position: relative;
+  }
+  .menu-bar ul li a {
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  .menu-bar ul li a:hover {
+    color:skyblue;
+  }
+  .fas {
+    float: left;
+    margin-left: 10px;
+    padding-top: 3px;
+  }
+  .dropdown-menu {
+    display: none;
+  }
+  .menu-bar ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color:brown;
+    /* padding-left: 10px; */
+  }
+  .menu-bar ul li:hover .dropdown-menu ul {
+    display: block;
+    margin: 0px;
+  }
+  .menu-bar ul li:hover .dropdown-menu ul li {
+    width: 150px;
+    /* padding-left: 10px; */
+    padding: 10px;
+  }
+.about_img img{
+    height: 100vh;
+    width: 100%;
+}
+.about_text{
+    position: absolute;
+    color:blue;
+    left:450px;
+    top: 300px;
+    font-size:40px;
+}
+.div{
+    display: flex;
+}
+.about_img1 img{
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+.about_text1{
+    position: absolute;
+    color:red;
+    margin-left:70px;
+    margin-top: 0px;
+    font-size:40px;
+}
+.about_img1{
+    margin: 80px;
+}
+.about_img2{
+    margin: 80px;
+}
+.about_img2 img{
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+.about_text2{
+    position: absolute;
+    color:red;
+    margin-left:850px;
+    margin-top: 0px;
+    font-size:40px;
+}
+.about_img3{
+    margin: 60px;
+}
+.about_img3 img{
+    height: 330px;
+    width: 330px;
+    position: relative;
+}
+.about_text3{
+    position: absolute;
+    color:red;
+    margin-left:70px;
+    margin-top: 0px;
+    font-size:40px;
+}
+.about_img4{
+    margin: 60px;
+}
+.about_img4 img{
+    height: 330px;
+    width: 330px;
+    position: relative;
+}
+.about_text4{
+    position: absolute;
+    color:red;
+    margin-left:550px;
+    margin-top: 0px;
+    font-size:40px;
+}
+.about_img5{
+    margin: 60px;
+}
+.about_img5 img{
+    height: 330px;
+    width: 330px;
+    position: relative;
+}
+.about_text5{
+    position: absolute;
+    color:red;
+    margin-left:1000px;
+    margin-top: 0px;
+    font-size:40px;
+}
+.div1{
+    display: flex;
+}
+.div4{
+    display: flex;
+    margin-left: 150px;
+}
+.div5{
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.div6 svg{
+    margin-top: 19px;
+}
